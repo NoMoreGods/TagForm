@@ -1,0 +1,34 @@
+.tags-adder {
+  min-height: 70px;
+}
+.tags-adder__tags {
+  padding: 0 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.tags-adder__tags_column {
+  padding: 0 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.tags-adder__tag {
+  background: rgb(223, 222, 222);
+  border-radius: 5px;
+  height: 100%;
+  padding: 0px 2px;
+  margin: 2px 2px;
+  display: flex;
+  align-items: center;
+  word-wrap: break-word;
+  overflow-wrap: anywhere;
+  line-height: 25px;
+}
+.tags-adder__icon {
+  width: 20px;
+  height: 20px;
+  margin: 2px;
+}

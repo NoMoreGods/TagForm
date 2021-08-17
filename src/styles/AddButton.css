@@ -1,0 +1,26 @@
+.add-button__button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  height: 25px;
+  border: none;
+  background: none;
+}
+.add-button__button:hover {
+  color: red;
+}
+.add-button__icon {
+  width: 20px;
+  height: 20px;
+  margin: 2px;
+  background: #fceba2cb;
+  border-radius: 50%;
+}
+
+.add-button__input {
+  padding: 0px;
+
+  align-items: center;
+  text-align: center;
+}
